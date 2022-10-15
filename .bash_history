@@ -1,110 +1,6 @@
 cd /root
 pwd
 ls
-touch so_cool
-ls
-exit
-cd /root
-pwd
-ls
-cp school /tmp
-exit
-cd /
-pwd
-ls
-cd tmp
-pwd
-ls
-exit
-cd /root
-pwd
-ls
-mv old_school new_school
-ls
-exit
-cd /root
-pwd
-ls
-mv not_here /tmp/right_school
-ls
-cd /
-pwd
-ls
-cd tmp
-pwd
-ls
-less right_school
-exit
-cd /root
-pwd
-ls
-rm ready_to_be_removed
-ls
-exit
-cd /root
-pwd
-ls
-mkdir school_is_amazing
-ls
-exit
-cd /root
-pwd
-ls
-rmdir empty_directory
-ls
-exit
-cd /root
-pwd
-mkdir 0x02_emacs
-exit
-cd /root
-pwd
-ls
-cd /0x02_emacs
-cd 0x02_emacs
-pwd
-Ctrl-x f
-touch ctrl-x f
-rm ctrl-x f
-touch opening
-cd /root
-ls
-cd 0x02_emacs
-ls -l
-rm opening
-touch /root/0x02_emacs/opening
-exit
-cd /root
-ls
-cd 0x02_emacs
-ls -l
-ls -l /root/0x02_emacs/opening
-exit
-cd /root
-pwd
-ls
-cd 0x02_emacs
-pwd
-ls -l
-rm opening
-ls
-C-x-C-f>opening
-touch C-x-C-f>opening
-ls -l
-exit
-cd /root
-pwd
-ls
-exit
-cd /root
-pwd
-ls
-touch 0x02_emacs/opening
-rm 0x02_emacs/opening
-exit
-cd /root
-pwd
-ls
 cd 0x02_emacs
 touch 0x02_emacs/opening ctrl-x f
 touch 0x02_emacs/opening/ctrl-x f
@@ -1990,4 +1886,115 @@ ls
 cd 0x00-vagrant
 ls
 cat 0-hello_ubuntu
+exit
+cd root
+ls
+mkdir alx-low_level_programming
+echo 'This is my readme file' > README.md
+git add .
+git commit -m 'first push'
+git push
+exit
+cd root
+ls
+git clone https://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@github.com/Foxynero/alx-low_level_programming.git
+git init
+git config --global user.email "adugyamfifoster@gmail.com"
+git config --global user.name "Foxynero"
+git status
+cd alx-low_level_programming
+ls
+echo 'This is readme' > README.md
+git add README.md
+git commit -a 'My first commit'
+git commit -a
+git push
+ssh -vT git@github.com
+ssh -T git@github.com
+ssh-agent -s
+ssh-add -l -E sha256
+exit
+cd root
+ls
+git init
+cd alx-low_level_programming
+ls
+git add .
+git commit -m 'Changes made'
+git branch --unset-upstream
+git commit -m 'Changes made'
+git push
+git push -u
+git push https://github.com/Foxynero/alx-low_level_programming.git
+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
+git push https://github.com/Foxynero/alx-low_level_programming.git
+cd ..
+rm -r alx-low_level_programming
+ls
+mkdir food
+git clone https://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@github.com/Foxynero/food.git
+echo 'read me' > README.md
+git add .
+git add README.md
+git commit -m 'My own thing'
+git push
+git push https://github.com/Foxynero/food.git
+rm -r food
+ls
+exit
+cd root
+ls
+git clone https://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@github.com/Foxynero/alx-low_level_programming.git
+git remote add origin https://github.com/Foxynero/alx-low_level_programming.git
+git init
+ls
+git checkout alx-low_level_programming
+git status
+cd alx-low_level_programming
+ls
+git pull
+ls
+git checkout main
+touch file 1
+git add .
+git commit -m 'committed'
+git push
+git push main
+git push -u main
+git push master
+exit
+cd root
+ls
+rm -r alx-low_level_programming
+ls
+cd 0x01_emacs
+ls
+echo 'README FILE' > README.md
+git add .
+git commit -m 'Readme file added'
+git push
+rm README.md
+exit
+cd root
+ls
+git remote set-url origin https://github.com/Foxynero/zero_day
+cd zero_day
+ls
+rm file
+git add .
+git commit -m 'committed'
+git push https://github.com/Foxynero/zero_day
+git push
+git push htpps://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@github.com/Foxynero/zero_day.git
+git push https://github.com
+cd ..
+git push https://github.com/Foxynero/zero_day
+git remote -v
+git push https://github.com/Foxynero/zero_day
+git remote rm origin
+git remote -v
+git remote add origin https://github.com:Foxynero/zero_day.git
+git push -u origin master
+git commit -m "initial commit"
+git push origin main
 exit
